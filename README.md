@@ -13,10 +13,10 @@ over only the patches you are interested in.
 
 ## Patch List & Compatibility
 
-| Patch Name | 1.0.0 | 2.0.0 | 2.1.0 | 2.2.0 | 2.3.0 | 3.0.0 | 3.0.1 | 3.0.2 | 4.0.0 | 4.0.1 | 4.1.0 | 5.0.0 | 5.0.1 | 5.0.2 | 5.1.0 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [disable_ca_verification](#disable-ca-verification) | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ | ✓ |
-| [am_dev_function](#am-dev-function) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Patch Name | 1.0.0 | 2.0.0 | 2.1.0 | 2.2.0 | 2.3.0 | 3.0.0 | 3.0.1 | 3.0.2 | 4.0.0 | 4.0.1 | 4.1.0 | 5.0.0 | 5.0.1 | 5.0.2 | 5.1.0 | 6.0.0 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [disable_ca_verification](#disable-ca-verification) | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ | ✓ | ✗ |
+| [am_dev_function](#am-dev-function) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 ### Disable CA Verification
 
