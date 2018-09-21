@@ -17,6 +17,7 @@ over only the patches you are interested in.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [disable_ca_verification](#disable-ca-verification) | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ | ✓ | ✗ |
 | [am_dev_function](#am-dev-function) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [fatal_force_extra_info](#fatal-force-extra-info) | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✗ | ✗ |
 
 ### Disable CA Verification
 
@@ -80,3 +81,12 @@ MOV             X2, X19
 ; store the previous setting
 STRB            W8, [X9,#g_dev_function_flag@PAGEOFF]
 ```
+
+### Fatal Force Extra Info
+
+**Thanks to:** [misson20000](https://github.com/misson20000)
+
+**Affected Sysmodules:** fatal
+
+Forces the check for `fatal!show_extra_info` setting to always pass. This causes the fatal error screen to show the title id, aslr base, and a backtrace of the process that caused the fatal error state.
+This patch works as an alternative to overwriting the setting via `set:fd`.
