@@ -19,6 +19,8 @@ over only the patches you are interested in.
 | [disable_browser_ca_verification](#disable-browser-ca-verification) | NRO | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [am_dev_function](#am-dev-function) | ExeFS | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
 | [fatal_force_extra_info](#fatal-force-extra-info) | ExeFS | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
+| [vi_debug](#vi-debug) | ExeFS | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✗ |
+| [capsrv_debug](#capsrv-debug) | ExeFS | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✓ |
 
 ### Disable CA Verification
 
@@ -99,3 +101,19 @@ STRB            W8, [X9,#g_dev_function_flag@PAGEOFF]
 
 Forces the check for `fatal!show_extra_info` setting to always pass. This causes the fatal error screen to show the title id, aslr base, and a backtrace of the process that caused the fatal error state.
 This patch works as an alternative to overwriting the setting via `set:fd`.
+
+### vi Debug
+
+**Thanks to:** [Behemoth](https://github.com/HookedBehemoth)
+
+**Affected Sysmodules:** vi
+
+Ignores debug settings value to enable `caps:sc` 1201-1203 and 1204 for 9.0.0-9.2.0.
+
+### CapSrv Debug
+
+**Thanks to:** [Behemoth](https://github.com/HookedBehemoth)
+
+**Affected Sysmodules:** capsrv
+
+Ignores global debug flag to enable DeleteAlbumFileByAruidForDebug and LoadMakerNoteInfoForDebug.
