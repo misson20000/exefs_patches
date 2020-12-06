@@ -24,7 +24,7 @@ over only the patches you are interested in.
 
 ### Disable CA Verification
 
-**Thanks to:** [SciresM](https://github.com/SciresM) (original patches), [Adubbz](https://github.com/Adubbz) (porting assistance), [misson20000](https://github.com/misson20000) (porting), [tesnos](https://github.com/tesnos) (porting), [simontime](https://github.com/simontime) (porting), [thomasnet](https://github.com/thomasnet-mc) (porting) and [Behemoth](https://github.com/HookedBehemoth) (porting).
+**Thanks to:** [SciresM](https://github.com/SciresM) (original patches), [Adubbz](https://github.com/Adubbz) (porting assistance), [misson20000](https://github.com/misson20000) (porting), [tesnos](https://github.com/tesnos) (porting), [simontime](https://github.com/simontime) (porting), [thomasnet](https://github.com/thomasnet-mc) (porting), and [Behemoth](https://github.com/HookedBehemoth) (porting).
 
 **Affected Titles:** ssl
 
@@ -32,7 +32,7 @@ Disables certificate authority verification on SSL requests made by sysmodules.
 
 ### Disable Browser CA Verification
 
-**Thanks to:** [thomasnet](https://github.com/thomasnet-mc), RTNX and [amicuchu](https://github.com/amicuchu) (porting)
+**Thanks to:** [thomasnet](https://github.com/thomasnet-mc), RTNX, and [amicuchu](https://github.com/amicuchu) (porting)
 
 **Affected Titles:** BrowserDll
 
