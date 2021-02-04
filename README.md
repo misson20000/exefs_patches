@@ -125,4 +125,4 @@ Ignores global debug flag to enable DeleteAlbumFileByAruidForDebug and LoadMaker
 
 **Affected Sysmodules:** nifm
 
-Skips connection test to allow connections to networks without internet access or dns wildcard blocks (e.g. *nintendo*).
+Skips connection test to allow connections to networks without internet access or dns wildcard blocks (e.g. \*nintendo\*).
