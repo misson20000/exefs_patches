@@ -21,6 +21,7 @@ over only the patches you are interested in.
 | [fatal_force_extra_info](#fatal-force-extra-info) | ExeFS | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
 | [vi_debug](#vi-debug) | ExeFS | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
 | [capsrv_debug](#capsrv-debug) | ExeFS | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
+| [nifm_ctest](#nifm-ctest) | ExeFS | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 ### Disable CA Verification
 
@@ -117,3 +118,11 @@ Ignores debug settings value to enable `caps:sc` 1201-1203 and 1204 for 9.0.0-9.
 **Affected Sysmodules:** capsrv
 
 Ignores global debug flag to enable DeleteAlbumFileByAruidForDebug and LoadMakerNoteInfoForDebug.
+
+### Nifm CTest
+
+**Thanks to:** [Behemoth](https://github.com/HookedBehemoth)
+
+**Affected Sysmodules:** nifm
+
+Skips connection test to allow connections to networks without internet access or dns wildcard blocks (e.g. *nintendo*).
