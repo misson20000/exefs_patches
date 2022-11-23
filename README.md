@@ -16,7 +16,7 @@ over only the patches you are interested in.
 | Patch Name | Type | 1.0.0 | 2.0.0 | 2.1.0 | 2.2.0 | 2.3.0 | 3.0.0 | 3.0.1 | 3.0.2 | 4.0.0 | 4.0.1 | 4.1.0 | 5.0.0 | 5.0.1 | 5.0.2 | 5.1.0 | 6.0.0 | 6.0.1 | 6.1.0 | 6.2.0 | 7.0.0 | 7.0.1 | 8.0.0 | 8.0.1 | 8.1.0 | 9.0.0 | 9.0.1 | 9.2.0 | 10.0.0 | 11.0.0 | 11.0.1 | 12.0.0 | 12.0.1 | 12.0.2 | 12.0.3 | 12.1.0 | 13.0.0 | 13.1.0 | 13.2.0 | 13.2.1 | 14.0.0 | 14.1.0 |  14.1.1 |  15.0.0 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | disable_ca_verification | ExeFS | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| disable_browser_ca_verification | NRO | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ? |
+| disable_browser_ca_verification | NRO | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | am_dev_function | ExeFS | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ? | ? | ? | ? | ? | ? | ? | ? |
 | fatal_force_extra_info | ExeFS | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ? | ? | ? | ? | ? | ? | ? | ? |
 | vi_debug | ExeFS | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ? | ? | ? | ? | ? | ? | ? | ? |
@@ -25,7 +25,7 @@ over only the patches you are interested in.
 
 ### Disable CA Verification
 
-**Thanks to:** [SciresM](https://github.com/SciresM) (original patches), [Adubbz](https://github.com/Adubbz) (porting assistance), [misson20000](https://github.com/misson20000) (porting), [tesnos](https://github.com/tesnos) (porting), [simontime](https://github.com/simontime) (porting), [thomasnet](https://github.com/thomasnet-mc) (porting),[Behemoth](https://github.com/HookedBehemoth) (porting), and [borntohonk](https://github.com/borntohonk) (porting).
+**Thanks to:** [SciresM](https://github.com/SciresM) (original patches), [Adubbz](https://github.com/Adubbz) (porting assistance), [misson20000](https://github.com/misson20000) (porting), [tesnos](https://github.com/tesnos) (porting), [simontime](https://github.com/simontime) (porting), [thomasnet](https://github.com/thomasnet-mc) (porting), [Behemoth](https://github.com/HookedBehemoth) (porting), and [borntohonk](https://github.com/borntohonk) (porting).
 
 **Affected Titles:** ssl
 
@@ -33,7 +33,7 @@ Disables certificate authority verification on SSL requests made by sysmodules.
 
 ### Disable Browser CA Verification
 
-**Thanks to:** [thomasnet](https://github.com/thomasnet-mc), RTNX, and [amicuchu](https://github.com/amicuchu) (porting)
+**Thanks to:** [thomasnet](https://github.com/thomasnet-mc), RTNX, [amicuchu](https://github.com/amicuchu) (porting), and [borntohonk](https://github.com/borntohonk) (porting).
 
 **Affected Titles:** BrowserDll
 
